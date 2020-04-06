@@ -29,7 +29,7 @@
             "styles": [
               "src/styles.scss"
             ],
-			"stylePreprocessorOptions": {
+			      "stylePreprocessorOptions": {
               "includePaths": [
                 "src/styles",
                 "./node_modules/uikit/src/scss"
