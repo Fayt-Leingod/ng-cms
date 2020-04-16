@@ -1,0 +1,39 @@
+nav.with-bottom-border {
+  border-bottom: solid 4px #25916f;
+}
+.uk-bottom {
+  position: absolute;
+  bottom: 0px;
+  width: 94%;
+}
+
+.uk-navbar-nav.themes {
+  li: {
+    transition: background-color 1000ms linear;
+  }
+  li.facebook:hover {
+    background-color: #3b5998;
+    color: #FFFFFF !important;
+    transition: background-color 1000ms linear;
+  }
+
+  li.twitter:hover {
+    background-color: #00acee;
+    color: #FFFFFF !important;
+    transition: background-color 1000ms linear;
+  }
+
+  li.linkedin:hover {
+    background-color: #0e76a8;
+    color: #FFFFFF !important;
+    transition: background-color 1000ms linear;
+  }
+  li.uk-active {
+    background-color: #25916f;
+    font-weight: 600;
+    a {
+      color: #FFFFFF;
+    }
+
+  }
+}
