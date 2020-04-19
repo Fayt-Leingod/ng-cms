@@ -40,7 +40,6 @@
               "./node_modules/uikit/dist/js/uikit.min.js",
               "./node_modules/uikit/dist/js/uikit-icons.min.js"
             ],
-            "scripts": [],
             "es5BrowserSupport": true
           },
           "configurations": {
