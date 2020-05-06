@@ -22,6 +22,7 @@ export class HomeComponent extends AbsctractComponent{
   async ngOnInit() {
     /*call the content of the component here*/
     const response = await this.http.get('api/page/all').toPromise();
+    console.log( 1000, response[0]);
     this.content = response[0].content || `no defined content found on BDD`;
   }
 
